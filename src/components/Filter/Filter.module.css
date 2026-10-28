@@ -1,0 +1,26 @@
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .label {
+    font-size: 14px;
+    font-weight: 600;
+    color: #334155;
+  }
+  
+  .input {
+    padding: 13px 15px;
+    border: 1px solid #cbd5e1;
+    border-radius: 10px;
+    font-size: 15px;
+  }
+  
+  .input:focus {
+    outline: none;
+    border-color: #6366f1;
+  }
+  

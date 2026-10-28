@@ -1,0 +1,56 @@
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    padding: 13px;
+    background: #f8fafc;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+  }
+  
+  .info {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    min-width: 0;
+  }
+  
+  .avatar {
+    display: grid;
+    place-items: center;
+    flex-shrink: 0;
+    width: 42px;
+    height: 42px;
+    background: #e0e7ff;
+    color: #4338ca;
+    border-radius: 50%;
+    font-weight: 700;
+  }
+  
+  .name {
+    margin: 0 0 4px;
+    font-weight: 600;
+    overflow-wrap: anywhere;
+  }
+  
+  .number {
+    color: #64748b;
+    text-decoration: none;
+    overflow-wrap: anywhere;
+  }
+  
+  .button {
+    padding: 9px 12px;
+    border: none;
+    border-radius: 8px;
+    background: #fee2e2;
+    color: #b91c1c;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background: #fecaca;
+  }
+  
